@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Now</title>
+    <style>
+        button{
+            background-color: aqua;
+            color: black;
+            position: absolute;
+            left: 40%;
+            top: 50%;
+            padding: 20px;
+            border-radius: 20px;
+            width: 200px;
+            font-size: large;
+        }
+        button:hover{
+            background-color: rgb(196, 175, 188);
+            color: rgb(0, 0, 0);
+            border-radius: 30px;
+            font-size: xx-large; 
+            padding: 50px;
+            width: 500px;
+            position: absolute;
+            left: 30%;
+            top: 50%;
+        }
+        body{
+            background-image: linear-gradient(to left, pink,purple,pink);
+        }
+    </style>
+</head>
+<body>
+    <script>
+        const userData=()=>{
+            var name=prompt("Enter your name");
+            var userName=prompt("Enter your username");
+            var email=prompt("Enter your email")
+        }
+        alert(name+userData+email)
+    </script>
+    <button onclick="userData()" >Login Now</button>
+</body>
+</html>
